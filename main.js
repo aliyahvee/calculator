@@ -25,6 +25,5 @@ $(document).ready(function(){
           $(".total_budget").css("color", '#000');
         }
         // alert("You're over budget!");
-      }
   });
 });
