@@ -20,7 +20,10 @@ $(document).ready(function(){
       $(".total_budget").find("span").text(new_budget);
 
       if (new_budget < 0) {
-          alert(document.overbudget.style.color='ff0000');
+          $(".total_budget").css("color", '#ff0000');
+        } else {
+          $(".total_budget").css("color", '#000');
+        }
         // alert("You're over budget!");
       }
   });
